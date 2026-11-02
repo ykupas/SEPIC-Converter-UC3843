@@ -1,0 +1,259 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "11a059c4-10cc-485c-b709-b00014f6ee7b")
+	(paper "A4")
+	(title_block
+		(title "SEPIC Converter - 12Vin / 3-50Vout (50W)")
+		(date "2026-11-01")
+		(rev "A")
+		(company "Author: Ygor K.")
+	)
+	(lib_symbols)
+	(text "Min. Hole = 0.4mm"
+		(exclude_from_sim no)
+		(at 40.894 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1327ac26-cc45-4eae-994b-284b51a95e75")
+	)
+	(text_box "Copper: 1oz - 0.035mm"
+		(exclude_from_sim no)
+		(at 30.48 177.8 0)
+		(size 83.82 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 188 194 6 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3d19aaa3-2c04-409b-8d7e-36919464d343")
+	)
+	(text_box "CORE: 1.53mm - Fenolite"
+		(exclude_from_sim no)
+		(at 30.48 165.1 0)
+		(size 83.82 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 148 33 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "619e06d5-5bea-48b8-89fc-22275c5367c7")
+	)
+	(text_box "Layout Notes"
+		(exclude_from_sim no)
+		(at 53.34 12.7 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 104 59 0.7607843137)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "62208cbb-d869-4f8d-bbc6-1ddd0676059a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 38.1 160.02 0)
+		(size 5.08 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 233 245 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "815f1aab-13fe-4770-9242-6db2b44759dc")
+	)
+	(text_box "Missing Revision"
+		(exclude_from_sim no)
+		(at 73.66 12.7 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 91 82 255 0.7607843137)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8e4f3305-b0fe-4f90-a538-7779acfe0b93")
+	)
+	(text_box "Schematic Notes"
+		(exclude_from_sim no)
+		(at 33.02 12.7 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a6089674-dbe8-4dd2-a3c8-9047079a16e1")
+	)
+	(text_box "Project Notes"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 125 194 167 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b937f99e-27c2-4067-af72-1fd6bfaa28a4")
+	)
+	(text_box "Copper: 1oz - 0.035mm"
+		(exclude_from_sim no)
+		(at 30.48 160.02 0)
+		(size 83.82 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 188 194 6 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d13c4dab-9b8a-4a47-bae3-7d518b3b87c3")
+	)
+	(sheet
+		(at 172.72 45.72)
+		(size 76.2 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 1.27)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "b8c0d05b-5d7a-42cf-85bb-de8c5e83b9f6")
+		(property "Sheetname" "MAIN"
+			(at 210.566 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(thickness 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 172.72 130.6834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SEPIC-12Vin-3to50Vout-50W"
+				(path "/11a059c4-10cc-485c-b709-b00014f6ee7b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
